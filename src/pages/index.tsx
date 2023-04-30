@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import { useKattyDefault } from "katty";
 import { useRef } from 'react';
-import { useWindowResize } from './useWindowSize';
+import { useWindowResize } from '../useWindowSize';
 
 export default function Home() {
   const windowSize = useWindowResize()
